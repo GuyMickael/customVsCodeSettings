@@ -1,0 +1,27 @@
+"Functional Component With Props": {
+  "scope": "typescript, typescriptreact",
+  "prefix": "rtfc",
+  "body": [
+    "interface Props {",
+    "}",
+    "",
+    "const $1: React.FC<Props> = ({}) => {",
+    "  return ($2);",
+    "};",
+    "",
+    "export default $1;",
+  ]
+}
+
+
+"Functional Component": {
+  "scope": "typescript, typescriptreact",
+  "prefix": "rfc",
+  "body": [
+    "const $1: React.FC = () => {",
+    "  return ($2);",
+    "};",
+    "",
+    "export default $1;",
+  ]
+}
